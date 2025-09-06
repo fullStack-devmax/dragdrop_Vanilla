@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <input type="text" id="searchInput" placeholder="Search by ID..." />
+    </nav>
+    <div style="display: flex; align-items: flex-start; justify-content: space-between;">
+        <div class="dropzone" data-zone="новый">
+            <h3>Новый</h3>
+        </div>
+    
+        <div class="dropzone" data-zone="заготовка">
+            <h3>заготовка</h3>
+        </div>
+
+        <div class="dropzone" data-zone="готов">
+            <h3>готов</h3>
+        </div>
+
+        <div class="dropzone" data-zone="впути">
+            <h3>впути</h3>
+        </div>
+    </div>
+
+<script src="./app.js" type="module"></script>      
+</body>
+</html>
